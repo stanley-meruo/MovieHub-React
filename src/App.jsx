@@ -33,9 +33,9 @@ const App = () => {
       
       <div className="md:ml-[15rem]">
         <Routes>
-          <Route path="/" element={<Trending />} />
+          <Route path="/" element={<Container />} />
+          <Route path="/trending" element={<Trending />} />
           <Route path="/upcoming" element={<Upcoming />} />
-          <Route path="/container" element={<Container />} />
           <Route path="/moviedetail/:id" element={<Detail />} />
           <Route path="/player/:id/:title" element={<Player />} />{" "}
           {/*Route-1 For Player, Title is just for beauty of url, it is not used anywhere.*/}

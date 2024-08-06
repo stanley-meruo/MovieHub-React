@@ -15,23 +15,23 @@ const Navbar = () => {
 
     // console.log(user)
     const Navdata = [
+    {
+      id: 1,
+      headername: "Genres",
+      Name: "Genres",
+      link: "/",
+    },
       {
         id: 1,
         headername: "Trending Movies",
         Name: "Trending",
-        link: "/",
+        link: "/trending",
       },
       {
         id: 2,
         headername: "Upcoming Movies",
         Name: "Upcoming",
         link: "/upcoming",
-      },
-      {
-        id: 3,
-        headername: "Genres",
-        Name: "Genres",
-        link: "/container",
       },
       {
         id: 4,
