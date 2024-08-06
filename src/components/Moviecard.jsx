@@ -42,7 +42,7 @@ const Moviecard = ({ movie }) => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 1 }}
         layout
-        className="card relative w-full md:w-[450px] h-[420px] my-4 mx-5 md:my-5 md:mx-0 cursor-pointer rounded-xl overflow-hidden"
+        className="card relative w-full sm:w-[480px] md:w-[450px] h-[420px] my-4 mx-5 md:my-5 md:mx-0 cursor-pointer rounded-xl overflow-hidden"
       >
         {/* Rating */}
         <div className="absolute z-20 right-0 m-5 p-2 rounded-full flex items-center font-bold bg-black text-white">
